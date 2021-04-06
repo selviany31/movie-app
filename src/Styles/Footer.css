@@ -1,0 +1,104 @@
+footer {
+    background-color: black;
+    color: whitesmoke;
+    /* height: 50vh; */
+    /* border: 1px solid red; */
+    min-height: 50vh;
+    position: relative;
+    padding: 40px;
+    display: flex;
+}
+
+.section {
+    border-bottom: white solid 1px;
+    display: flex;
+    height: 40vh;
+    /* flex-wrap: wrap; */
+    /* flex-flow: column; */
+}
+
+.about {
+    flex: 1.5;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin-left: -17px;
+    /* margin-top: -10px; */
+}
+
+.laflix-logo {
+    height: 70px;
+    margin-top: -15px;
+}
+
+.text {
+    text-align: left;
+}
+
+.link {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.link li {
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-left: 130px;
+}
+
+.link li:hover {
+    margin-left: 145px;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.social {
+    flex: 1.2;
+}
+
+.footer-bottom {
+    background-color: black;
+    color: whitesmoke;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    position: absolute;
+    left: 0px;
+    bottom: 15px;
+}
+
+.social {
+    text-align: left;
+}
+
+.store {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 30px;
+}
+
+.store img {
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.social-media {
+    display: flex;
+}
+
+.social-media img {
+    height: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}

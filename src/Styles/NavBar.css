@@ -1,0 +1,124 @@
+.navbar {
+  display: flex;
+  background-color: #801336;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.navbar a:link {
+  text-decoration: none;
+}
+.logo-wrapper {
+  display: flex;
+  color: white;
+}
+.logo-wrapper img {
+  width: 60px;
+  height: 60px;
+}
+
+.nav-link {
+  color: black;
+}
+.nav-link:hover {
+  color: black;
+}
+.logo-wrapper-modal {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.search-bar {
+  width: 70vh;
+  padding: 6px 0px;
+  border-radius: 5px;
+}
+.sign-in-wrapper {
+  color: white;
+}
+.sign-in-wrapper :hover {
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px whitesmoke solid;
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.kong {
+  width: 5px;
+}
+
+.modal-container {
+  display: flex;
+  justify-content: center;
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 500px;
+  height: 70vh;
+  min-width: 400px;
+  border-radius: 5px;
+}
+.input-container {
+  margin-top: 30px;
+  margin-bottom: 200px;
+  color: #ada6a6;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.input-container input {
+  margin-bottom: 10px;
+  background-color: #ece7e7;
+  height: 30px;
+  border-radius: 3px;
+  border: 0px;
+  width: 50vh;
+  text-align: left;
+}
+.input-container button {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 30px;
+  background: #fe024e;
+  border: 0px;
+  border-radius: 3px;
+  color: white;
+}
+.input-container button:hover {
+  background-color: tomato;
+}
+.input-container p {
+  margin-left: 30px;
+  color: #ada6a6;
+}
+.input-container p span {
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+.carousel-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.carousel-pict {
+  margin-top: 67px;
+  width: 100%;
+  height: 500px;
+  box-shadow: 5px 5px 5px grey;
+  transform: translateY(-10px);
+}
+
+.watch-list {
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+}
+.watch-list:hover {
+  text-decoration: none;
+}

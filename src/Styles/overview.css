@@ -1,0 +1,18 @@
+.overview {
+  margin: 50px 0;
+}
+.overview h5 {
+  color: #fe024e;
+}
+.review {
+  display: flex;
+  margin: 50px 0;
+}
+.review-img img {
+  width: 50px;
+  border-radius: 5px;
+}
+.review-form label {
+  margin: 0;
+  font-weight: 600;
+}
